@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9dbbebb-e662-4906-bd5c-ec34d8f34442" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/img/icons/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/sw.js" afterDir="false" />
     </list>
@@ -35,11 +39,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img/icons" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -57,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598274010496</updated>
       <workItem from="1598274011798" duration="5615000" />
-      <workItem from="1598339062302" duration="6757000" />
+      <workItem from="1598339062302" duration="11282000" />
     </task>
     <servers />
   </component>
@@ -77,16 +82,5 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1598344856122" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="javascript">
-          <url>file://$PROJECT_DIR$/static/sw.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -9,7 +9,7 @@ if (currentPermission === 'default') {
 const handle = () => {
 
     // Registering service worker
-    window.navigator.serviceWorker.register('./sw.js',)
+    window.navigator.serviceWorker.register('./sw.js', {scope: './'})
         .then((registration) => {
             console.log('Index: SW registered!', registration);
 
@@ -47,3 +47,21 @@ const handle = () => {
 }
 
 handle();
+
+window.addEventListener('beforeinstallprompt', (event) => {
+    console.log('beforeinstallprompt');
+    event.preventDefault();
+
+    const installBtn = document.getElementById('install-app');
+    installBtn.addEventListener('click', () => {
+        event.prompt();
+        event.userChoice.then((result) => {
+            console.log(result);
+        })
+    })
+
+})
+
+window.addEventListener('load', () => {
+})
+

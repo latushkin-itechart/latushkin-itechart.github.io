@@ -1,0 +1,19 @@
+{
+  "name": "Github IO Page",
+  "short_name": "GIO Page",
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#1e824c",
+  "background_color": "#efefef",
+  "icons": [{
+    "sizes": "128x128",
+    "src": "/img/icons/128.png"
+  }, {
+    "sizes": "64x64",
+    "src": "img/icons/64.png"
+  }, {
+    "sizes": "256x256",
+    "src": "img/icons/256.png"
+  }]
+}
