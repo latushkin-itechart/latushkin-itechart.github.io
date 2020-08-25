@@ -10,7 +10,13 @@ app.use(bodyParser.json())
 const subscriptions = getSubscriptions();
 
 app.post('/register-subscription/', (req, res) => {
-    subscriptions.push(req.body);
+
+    const auth = req.body.keys.auth;
+    // Preventing from duplicate added clients
+    if(!subscriptions.some(({keys}) => keys.auth === auth)) {
+        subscriptions.push(req.body);
+    }
+
     res.json({})
 })
 
