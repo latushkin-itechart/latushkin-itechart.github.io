@@ -31,14 +31,14 @@ self.addEventListener('activate', (event) => {
 })
 
 self.addEventListener('fetch', (event) => {
-    console.log('SW: Loading ', event.request.url);
+    // console.log('SW: Loading ', event.request.url);
 
     const getResponse = async () => {
         try {
-            console.log('Attempting to load from cache...')
+            // console.log('Attempting to load from cache...')
             return await getFromCache(event.request)
         } catch (e) {
-            console.log('Loading from network...')
+            // console.log('Loading from network...')
         }
         return await getFromNetwork(event.request);
 
@@ -48,5 +48,11 @@ self.addEventListener('fetch', (event) => {
 
     // getFromCache(event.request)
     // .catch(e => console.error('Failed to load from cache: ' + event.request.url)));
-})
+});
 
+self.addEventListener('push', (event) => {
+    const ntfData = event.data.json().notification;
+    console.log('SW: push!', event.data.json());
+    const ntfPromise = self.registration.showNotification(ntfData.title, {body: ntfData.body});
+    event.waitUntil(ntfPromise);
+})
