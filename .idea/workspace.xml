@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9dbbebb-e662-4906-bd5c-ec34d8f34442" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aug-28.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rna/RNA/components/MainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rna/RNA/components/WebApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/sw.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +29,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1gXvyzBmMSlOPRlDKt0PT4lN7oU" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,14 +51,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/img/icons" />
-      <recent name="$PROJECT_DIR$/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rna/RNA/android" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img/icons" />
+      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,6 +74,8 @@
       <workItem from="1598339062302" duration="11705000" />
       <workItem from="1598424764906" duration="599000" />
       <workItem from="1598432778675" duration="367000" />
+      <workItem from="1598512569320" duration="637000" />
+      <workItem from="1598599447548" duration="13133000" />
     </task>
     <servers />
   </component>
@@ -66,6 +83,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="879" y="225" width="800" height="684" key="#Deployment" timestamp="1598605255826">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="879" y="225" width="800" height="684" key="#Deployment/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1598605255826" />
     <state x="711" y="355" width="560" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598341674593">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -74,9 +95,9 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="660" y="252" key="run.anything.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1598341728516" />
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598344856122">
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598610728524">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1598344856122" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1598610728524" />
   </component>
 </project>

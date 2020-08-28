@@ -18,3 +18,8 @@ Content-Type: application/json
 ```
 
 Backend code is located in `/index.js` script. Sender code is in `/src/send.js` script.
+
+FTP
+ftp://vh79.hoster.by
+opht@test.tutoritech.com
+CXPcI{]$KO(]

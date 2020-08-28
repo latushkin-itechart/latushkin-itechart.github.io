@@ -3,8 +3,11 @@ self.addEventListener('push', (event) => {
     const ntfData = event.data.json().notification;
     console.log('SW: push!', event.data.json());
     const ntfPromise = self.registration.showNotification(ntfData.title, {body: ntfData.body});
+    if ('ReactNativeWebView' in window) {
+        window.ReactNativeWebView.postMessage(JSON.stringify('x'));
+    }
     event.waitUntil(ntfPromise);
-})
+});
 
 const CACHE = 'cache-v1';
 const resourcesToCache = [
