@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9dbbebb-e662-4906-bd5c-ec34d8f34442" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aug-28.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rna/RNA/components/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rna/RNA/components/WebApp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/sw.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +67,8 @@
       <workItem from="1598424764906" duration="599000" />
       <workItem from="1598432778675" duration="367000" />
       <workItem from="1598512569320" duration="637000" />
-      <workItem from="1598599447548" duration="13133000" />
+      <workItem from="1598599447548" duration="15045000" />
+      <workItem from="1598874463950" duration="24000" />
     </task>
     <servers />
   </component>
